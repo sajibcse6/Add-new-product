@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add new product</title>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="cssbasic.css">
+	 <!-- <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style> -->
+</head>
+<body>
+	<header>
+<nav class="navbar navbar-dark bg-light">
+  <img src="log.jpg" alt="Logo" style="width:200px; height: 60px">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Product type
+        </a>
+        <div class="dropdown-menu bg-success" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Electronic Device</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Electronic Accessories</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Home & Lifestyle</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Men's Fashion</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Women's fashion</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Sports</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Others</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Promossion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Offer</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Support</a>
+      </li>
+    </ul>
+  </div>
+  <div class="div-inline mx-4">
+  <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" data-toggle="modal" data-target="#myModal">
+    SIGN IN
+  </button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign in</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary" style="float: right;">Submit</button>
+  <hr class="w-25 mx-auto pt-5">
+  <p>If you are a new membur please create a account</p>
+    <button type="button" class="btn btn-outline-success" data-dismiss="modal">Sign Up</button>
+</form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+</nav>
+<hr class="mx-auto pt-1">
+</header> 
+<section>
+	<div class="mx-2">
+		<h1 class="text-center mt-4" style="color: #000"> Add new Product </h1>
+		<hr class=" mx-auto pt-1">
+		<div class="row mx-2 ">
+			<div class="col-lg-6 col-md-6 col-12 ">
+			<div class="container-fluid">
+        <form class="bg-info text-white py-4 pl-5  ">
+   <div class="form-group row">
+    <label for="inputPassword" class="col-sm-3 col-form-label">Name</label>
+    <div class="col-sm-8">
+      <input type="password" class="form-control" id="inputPassword" >
+    </div>
+  </div>
+   <div class="form-group row">
+    <label for="inputPassword" class="col-sm-3 col-form-label">Image</label>
+    <div class="col-sm-8">
+      <input type="file" class="form-control" id="inputPassword" >
+    </div>
+  </div>
+  
+   <div class="form-group row">
+    <label for="inputPassword" class="col-sm-3 col-form-label">color</label>
+    <div class="col-sm-8">
+      <input type="password" class="form-control" id="inputPassword" >
+    </div>
+  </div> 
+  <div class="form-group row">
+   <label for="inputPassword" class="col-sm-3 col-form-label">Type</label>
+   <div class="col-sm-8">
+    <select class="form-control" id="inputPassword">
+      <option>Laptop</option>
+      <option>Pc</option>
+      <option>iphone</option>
+      <option>Mobile</option>
+      <option>Others</option>
+    </select></div>
+  </div>
+  <div class="form-group row ">
+    <label for="inputPassword" class="col-sm-3 col-form-label">Price</label>
+    <div class="col-sm-8">
+      <input type="password" class="form-control" id="inputPassword" >
+    </div>
+  </div> 
+  <div class="form-group row ">
+    <label for="inputPassword" class="col-sm-3 col-form-label">Quantity</label>
+    <div class="col-sm-8">
+      <input type="password" class="form-control" id="inputPassword" >
+    </div>
+  </div> 
+  
+			
+  	</div></div>
+			<div class="col-lg-6 col-md-6 col-12">
+				<div class="container">
+  <h2 class="text-success">Details</h2>         
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <td>Windows</td>
+        <td><input type="text" class="form-control" /></td>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Core</td>
+        <td><input type="text" class="form-control" /></td>
+       
+      </tr>
+      <tr>
+        <td>battery/td>
+        <td><input type="text" class="form-control" /></td>
+        
+      </tr>
+      <tr>
+        <td>RAM/ROM</td>
+        <td><input type="text" class="form-control" /></td>
+        
+      </tr>
+      <tr>
+        <td>Desplay</td>
+        <td><input type="text" class="form-control" /></td>
+        
+      </tr>
+    </tbody>
+  </table>
+  <div align="right"> 
+<input type="button" class="btn btn-primary mt-5 mr-auto my-sm-0" type="submit" data-toggle="modal"  value="Save" />
+<input type="button" class="btn btn-success mt-5 mr-auto my-sm-0" type="submit" data-toggle="modal"  value="Back to List" /> 
+</div>
+</div>
+			</div>
+
+
+
+		</div>
+
+
+
+</div>
+</section>
+<hr class="w-25 mx-auto pt-5">
+
+
+	<footer class="text-center bg-dark text-white">
+		<p>Help & support : sm.rakib.773@gmail.com</p>
+		<p>@2020 - Ecommerceproject - <a href="#">Privacy</a></p>
+		
+	</footer>
+
+
+
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
